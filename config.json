@@ -7,28 +7,22 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "88ae7d00391a440ac7ccd009bcb34e4e",
-      "css": "guidedog",
-      "code": 59398,
-      "src": "elusive"
-    },
-    {
-      "uid": "d090355c31f497b61d676416c1fd39fb",
-      "css": "twitter",
-      "code": 62217,
+      "uid": "7222571caa5c15f83dcfd447c58d68d9",
+      "css": "search",
+      "code": 59392,
       "src": "entypo"
     },
     {
-      "uid": "bc50457410acf467b8b5721240768742",
+      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
       "css": "facebook",
-      "code": 62220,
-      "src": "entypo"
+      "code": 61594,
+      "src": "fontawesome"
     },
     {
-      "uid": "b945f4ac2439565661e8e4878e35d379",
-      "css": "gplus",
-      "code": 62223,
-      "src": "entypo"
+      "uid": "627abcdb627cb1789e009c08e2678ef9",
+      "css": "twitter",
+      "code": 61593,
+      "src": "fontawesome"
     },
     {
       "uid": "a9862b9d5197886c1ad693ecd7120b31",

@@ -45,9 +45,9 @@ a:active {
     width: 100%;
     padding: 10px 0;
     text-align: center;
-    background-color: #c34f4f;
-    border-top: 1px solid #751b1b;
-    border-bottom: 1px solid #751b1b;
+    background-color: #39a5f1;
+    border-top: 1px solid #003F8B;
+    border-bottom: 1px solid #003F8B;
 }
 
 .content {
@@ -156,19 +156,19 @@ ol>li {
     float: left;
     width: 150px;
     height: 40px;
-    border-right: 1px dashed #751b1b;
+    border-right: 1px dashed #003F8B;
 }
 
 ol>li:first-child {
-    border-left: 1px dashed #751b1b;
+    border-left: 1px dashed #003F8B;
 }
 
 ol>li:hover {
-    background-color: #cf6969;
+    background-color: #39A5F1;
 }
 
 ol>li:hover>a {
-    color: #451717;
+    color: #003F8B;
 }
 
 ol>li>ul {
@@ -184,18 +184,18 @@ ol>li:hover>ul {
 }
 
 ol>li>ul>li {
-    background-color: #cf6969;
+    background-color: #39A5F1;
     position: relative;
     z-index: 100;
-    border-top: 1px dashed #751b1b;
+    border-top: 1px dashed #003F8B;
 }
 
 ol>li>ul>li:hover {
-    background-color: #c34f4f;
+    background-color: #39A5F1;
 }
 
 ol>li>ul>li:hover>a {
-    color: #451717;
+    color: #003F8B;
 }
 
 #inst {
