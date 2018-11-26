@@ -10,6 +10,7 @@
     <meta name="author" content="AW">
 
     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" href="galeria.css">
     <link rel="stylesheet" href="css/fontello.css">
@@ -25,7 +26,69 @@
 <body>
 
     <main>
+        <div class="header">
+            <div class="logo">
+                <span style="color: #39a5f1"> putkowe</span>podróże.com
+                <div style="clear:both;"></div>
 
+            </div>
+
+        </div>
+
+        <div class="nav">
+
+            <ol>
+
+                <li><a href="index.html">Strona główna</a></li>
+
+                <li><a href="#">Tatry</a>
+                    <ul>
+                        <li><a href="#">2014</a></li>
+                        <li><a href="#">2015</a></li>
+                        <li><a href="#">2016</a></li>
+                        <li><a href="#">2018</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Polska</a>
+                    <ul>
+                        <li><a href="#">Kraków</a></li>
+                        <li><a href="#">Zakopane</a></li>
+                        <li><a href="#">Wieliczka</a></li>
+                        <li><a href="#">Trójmiasto</a></li>
+                        <li><a href="#">Karpacz</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Europa</a>
+                    <ul>
+                        <li><a href="#">Grecja</a></li>
+                        <li><a href="#">Niemcy</a></li>
+                        <li><a href="#">Czechy</a></li>
+                        <li><a href="#">Dania</a></li>
+                        <li><a href="szwecja.html">Szwecja</a></li>
+                        <li><a href="wlochy.html">Włochy</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Świat</a>
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">O autorach</a></li>
+
+            </ol>
+
+
+
+
+
+        </div>
         <article>
 
             <div class="container">
@@ -105,6 +168,30 @@
 
     </main>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            var NavY = $('.nav').offset().top;
+
+            var stickyNav = function() {
+                var ScrollY = $(window).scrollTop();
+
+                if (ScrollY > NavY) {
+                    $('.nav').addClass('sticky');
+                } else {
+                    $('.nav').removeClass('sticky');
+                }
+            };
+
+            stickyNav();
+
+            $(window).scroll(function() {
+                stickyNav();
+            });
+        });
+    </script>
 </body>
 
 </html>
