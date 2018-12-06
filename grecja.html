@@ -4,12 +4,14 @@
 <head>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Grecja - galeria zdjęć</title>
     <meta name="description" content="Wielkie Greckie Wakacje - Kreta - Rethymno">
     <meta name="keywords" content="Grecja, Rethymno, Kreta, podróż poślubna, wakacje, zwiedzanie">
     <meta name="author" content="AW">
 
     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" href="galeria.css">
@@ -28,69 +30,92 @@
 <body>
 
     <main>
-        <div class="header">
-            <div class="logo">
-                <span style="color: #39a5f1"> putkowe</span>podróże.com
-                <div style="clear:both;"></div>
+        <header>
+            <div class="header">
+
+                <div class="logo">
+                    <span style="color: #39a5f1"> putkowe</span>podróże.com
+                    <div style="clear:both;"></div>
+
+                </div>
 
             </div>
+            <nav class="navbar bg-travel navbar-dark navbar-expand-md">
 
-        </div>
+                <a class="navbar-brand" href="index.html">Strona główna</a>
 
-        <div class="nav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="przełącznik nawigacji">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            <ol>
+                <div class="collapse navbar-collapse" id="mainmenu">
 
-                <li><a href="index.html">Strona główna</a></li>
+                    <ul class="navbar-nav">
 
-                <li><a href="#">Tatry</a>
-                    <ul>
-                        <li><a href="#">2014</a></li>
-                        <li><a href="#">2015</a></li>
-                        <li><a href="#">2016</a></li>
-                        <li><a href="#">2018</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle navbar bg-travel navbar-dark" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true">Tatry</a>
+
+                            <div class="dropdown-menu bg-travel navbar-dark" aria-labelledby="submenu">
+
+                                <a class="dropdown-item" href="#">2014</a>
+                                <a class="dropdown-item" href="#">2015</a>
+                                <a class="dropdown-item" href="#">2016</a>
+                                <a class="dropdown-item" href="#">2018</a>
+
+                            </div>
+
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle navbar bg-travel navbar-dark" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true">Polska</a>
+
+                            <div class="dropdown-menu bg-travel navbar-dark" aria-labelledby="submenu">
+
+                                <a class="dropdown-item" href="#">Kaków</a>
+                                <a class="dropdown-item" href="#">Zakopane</a>
+                                <a class="dropdown-item" href="#">Wieliczka</a>
+                                <a class="dropdown-item" href="#">Trójmiasto</a>
+                                <a class="dropdown-item" href="karpacz.html">Karpacz</a>
+
+                            </div>
+
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle navbar bg-travel navbar-dark" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true">Europa</a>
+
+                            <div class="dropdown-menu bg-travel navbar-dark" aria-labelledby="submenu">
+
+                                <a class="dropdown-item" href="grecja.html">Grecja</a>
+                                <a class="dropdown-item" href="niemcy.html">Niemcy</a>
+                                <a class="dropdown-item" href="czechy.html">Czechy</a>
+                                <a class="dropdown-item" href="#">Dania</a>
+                                <a class="dropdown-item" href="szwecja.html">Szwecja</a>
+                                <a class="dropdown-item" href="wlochy.html">Włochy</a>
+
+
+                            </div>
+
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle navbar bg-travel navbar-dark" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true">Świat</a>
+
+                            <div class="dropdown-menu bg-travel navbar-dark" aria-labelledby="submenu">
+
+                                <a class="dropdown-item" href="#">1</a>
+                                <a class="dropdown-item" href="#">2</a>
+                                <a class="dropdown-item" href="#">3</a>
+
+                            </div>
+
+                        </li>
+
                     </ul>
-                </li>
+                </div>
 
-                <li><a href="#">Polska</a>
-                    <ul>
-                        <li><a href="#">Kraków</a></li>
-                        <li><a href="#">Zakopane</a></li>
-                        <li><a href="#">Wieliczka</a></li>
-                        <li><a href="#">Trójmiasto</a></li>
-                        <li><a href="karpacz.html">Karpacz</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="#">Europa</a>
-                    <ul>
-                        <li><a href="grecja.html">Grecja</a></li>
-                        <li><a href="niemcy.html">Niemcy</a></li>
-                        <li><a href="czechy.html">Czechy</a></li>
-                        <li><a href="#">Dania</a></li>
-                        <li><a href="szwecja.html">Szwecja</a></li>
-                        <li><a href="wlochy.html">Włochy</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="#">Świat</a>
-                    <ul>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="#">O autorach</a></li>
-
-            </ol>
-
-
-
-
-
-        </div>
+            </nav>
+        </header>
         <article>
 
             <div class="container">
@@ -207,13 +232,6 @@
 
                 </div>
 
-
-
-
-
-
-
-
             </div>
 
         </article>
@@ -244,6 +262,12 @@
             });
         });
     </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 
