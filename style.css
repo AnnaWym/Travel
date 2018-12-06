@@ -25,10 +25,6 @@ a:active {
     text-decoration: none;
 }
 
-.wrapper {
-    width: 100%;
-}
-
 .header {
     width: 100%;
     padding: 40px 0;
@@ -47,65 +43,67 @@ a:active {
     padding: 30px;
 }
 
+.nomargin {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .socials {
     width: 100%;
     text-align: center;
     background-color: #292929;
 }
 
-.socialdivs {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+.menu {
+    width: 100%;
+    text-align: center;
+    background-color: #39a5f1;
 }
 
 .fb {
-    width: 250px;
     height: 155px;
     float: left;
 }
 
 .fb:hover {
-    width: 250px;
     height: 155px;
     float: left;
     background-color: #4668b3;
 }
 
 .yt {
-    width: 250px;
     height: 155px;
     float: left;
 }
 
 .yt:hover {
-    width: 250px;
     height: 155px;
     float: left;
     background-color: #d94348;
 }
 
 .tw {
-    width: 250px;
     height: 155px;
     float: left;
 }
 
 .tw:hover {
-    width: 250px;
     height: 155px;
     float: left;
     background-color: #3095d3;
 }
 
 .instagram {
-    width: 250px;
     height: 155px;
     float: left;
 }
 
 .instagram:hover {
-    width: 250px;
     height: 155px;
     float: left;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -118,7 +116,6 @@ a:active {
 
 .footer {
     text-align: center;
-    background-color: #222222;
     padding: 30px;
 }
 
